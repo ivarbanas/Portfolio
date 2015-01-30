@@ -1,0 +1,194 @@
+/*
+#####################################
+######### Well hello there! #########
+#####################################
+*/
+
+.navbar-default.active{
+	background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.95) !important;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5) !important;
+	transition: all 0.3s ease-in-out 0s;
+	border-color: none;
+}
+.firstContainer{
+	background-image:url("../img/background.jpg");
+	width:100% !important;
+	height:920px;
+	background-size:cover;
+	background-position:center;
+	padding-top:100px;
+}
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{
+	border-bottom:5px solid #2e637e;
+}
+@media screen and (max-width: 767px) {
+	.collapse {
+		background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.95);
+	} 
+}
+.center{
+	text-align:center;
+}
+p{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.filter {
+	background: rgba(0, 0, 0, .5);
+	height:100%;
+}
+.white h1, .white p{
+	color:#fff;
+	text-shadow: 2px 2px #3d3d3d;
+}
+.btn-profile {
+	color: #ffffff;
+	background-color: transparent;
+	vertical-align: middle;
+	line-height: 1.42857;
+	display: inline-block;
+	border-radius: 4px;
+	width: 6em;
+	margin: 0em .25em 1em .25em;
+	padding: .1em 0;
+	border: 1px solid rgba(255, 255, 255, .75);
+	-webkit-transition: all .25s ease-in-out;
+	font-size: 1.6em;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+.btn-profile:hover,
+.btn-profile:focus,
+.btn-profile.focus,
+.btn-profile:active,
+.btn-profile.active,
+.open > .dropdown-toggle.btn-profile {
+	color: #363636;
+	background-color: #fff;
+	border-color: #fff;
+}
+.btn-profile:active,
+.btn-profile.active,
+.open > .dropdown-toggle.btn-profile {
+	background-image: none;
+}
+.colored {
+	/*background: -webkit-gradient(linear, left top, right bottom, color-stop(25%,rgba(69, 147, 186, 1)), color-stop(100%,rgba(85, 109, 89, 1)));*/
+	/*background: -webkit-linear-gradient(-45deg,  rgba(69, 147, 186, 1) 25%,rgba(85, 109, 89, 1) 100%);*/
+	/*background: -moz-linear-gradient(-45deg,  rgba(69, 147, 186, 1) 25%, rgba(85, 109, 89, 1) 100%);*/
+	/*background: -o-linear-gradient(-45deg,  rgba(69, 147, 186, 1) 25%,rgba(85, 109, 89, 1) 100%);*/
+	/*background: -ms-linear-gradient(-45deg,  rgba(69, 147, 186, 1) 25%,rgba(85, 109, 89, 1) 100%);*/
+	background: linear-gradient(135deg,  rgba(69, 147, 186, 1) 25%,rgba(85, 109, 89, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3291e0', endColorstr='#35d678',GradientType=1 );
+}
+#topRow{
+	margin-top:100px;
+	margin-bottom:80px;
+	text-align:center;
+}
+.marginTop{
+	margin-top:30px;
+}
+.paddingTop{
+	padding-top:40px;
+}
+.morePaddingTop{
+	padding-top:60px;
+}
+.marginBottom{
+	margin-bottom:10px;
+}
+.paddingBottom{
+	padding-bottom:40px;
+}
+
+
+.emailForm{
+	border:1px solid grey;
+	border-radius:10px;
+	margin-top:20px;
+	background-color:#fff;
+}
+form{
+	padding-bottom:20px;
+}
+
+
+#sentForm input.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+
+#sentForm textarea.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+
+#sentForm div span{
+	margin-left: 10px;
+	color: #b1b1b1;
+	font-size: 11px;
+	font-style: italic;
+}
+#sentForm div span.error{
+	color: #e46c6e;
+}
+
+.section#about {
+  background-color: #fff;
+}
+.section#about h2,
+.section#about h3 {
+  color: #787878;
+  text-shadow: 1px 1px #3d3d3d;
+}
+.section#about h4 {
+  color: #787878;
+}
+.section#about p {
+  color: #787878;
+  font-size: 1.3em;
+}
+.section#skills h2 {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+.section#contact {
+  background:#b1bdc4;
+}
+.section#contact h2 {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+.section#contact p {
+  color: #000;
+  font-weight: 300;
+  font-style: italic;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 3em;
+}
+#footer {
+  background-color: #21272a;
+  border-top: 1px solid #21272d;
+}
+@media (max-width: 767px) {
+  #footer {
+    padding: 1.5em 0;
+  }
+}
+@media (min-width: 768px) {
+  #footer {
+    padding: 2em 0;
+  }
+}
+@media (min-width: 992px) {
+  #footer {
+    padding: 4em 0;
+  }
+}
+#footer p {
+  color: #fff;
+  font-weight: 300;
+  font-style: italic;
+}
