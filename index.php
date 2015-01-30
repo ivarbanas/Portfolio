@@ -19,7 +19,8 @@
 		if($error){
 			$result='<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert">x</button><strong>There were error(s) in your form:</strong>'.$error.'</div>';
 		}else{
-			if(mail("arbanas.ivica@gmail.com", "Message from portfolio!",
+			// Instead "example@gmail.com" enter your e-mail address
+			if(mail("example@gmail.com", "Message from portfolio!",
 			"Name: ".$_POST['name']."
 			Email: ".$_POST['email']."
 			Message: ".$_POST['message'])){
